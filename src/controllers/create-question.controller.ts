@@ -1,5 +1,4 @@
 import { Body, Controller, Post, UseGuards, UsePipes } from '@nestjs/common'
-import { AuthGuard } from '@nestjs/passport'
 import { JwtAuthGuard } from 'src/auth/jwt-auth.guard'
 import { ZodValidationPipe } from 'src/pipes/zod-validation-pipe'
 import { PrismaService } from 'src/prisma/prisma.service'
